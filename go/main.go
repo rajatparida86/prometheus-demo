@@ -12,7 +12,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
-// create gauge metric
+// prometheus metric
 var (
 	// total requests counter
 	goRequestCounter = promauto.NewCounter(prometheus.CounterOpts{
